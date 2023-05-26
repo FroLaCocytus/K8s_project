@@ -66,7 +66,7 @@ docker build -t frolacocytus/project:1.0.0 --network host .
 ```
 Проверим наличие нашего `Docker image`:
 ```bash
-docker build -t frolacocytus/project:1.0.0 --network host .
+docker image ls
 ```
 
 Запустим `Docker container` и проверем работоспособность web-приложения (будет доступно по адресу http://127.0.0.1:8000/hello.html):
